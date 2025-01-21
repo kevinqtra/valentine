@@ -18,6 +18,7 @@ function getRandomNumber(min, max) {
 }
 
 btnNo.addEventListener("click", (event) => {
+    btnNo.blur();
   const containerHeight = container.getBoundingClientRect().height;
   const containerWidth = container.getBoundingClientRect().width;
   const btnHeight = btnNo.getBoundingClientRect().height;
